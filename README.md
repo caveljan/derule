@@ -3,7 +3,7 @@
 Software of the Ideal Society to be Used in Non-Ideal Ones
 
 
-Before speaking of what and how the software does, one should always speak of why the software is first of all required. This is even more true when speaking about the design and implemntation of a Society in Software (SiS). And of course, the first sentence can have software replaced with anything else: it always hurts to ask the why and it is always worth it.
+Before speaking of what and how the software does, one should always speak of why the software is first of all required. This is even more true when speaking about the design and implementation of a Society in Software (SiS). And of course, the first sentence can have software replaced with anything else: it always hurts to ask the why and it is always worth it.
 
 
 So far in human history (the last 200,000 years) the lifespan of a society was limited by the lifespan of it's rulers. For the first time in the last hundreds of years we had the opportunity to devise systems of rules (laws, written and enforced by a more or less elected group) which can govern more than the lifespan of one individual. One may find examples of laws even earlier, the Greeks, the Roman Empire, the Chinese Empire, and so forth, however as we cannot equate the mathematics done by Euclid (beautiful and correct as it is) with the mathematics done by a student of Euclid's 2,400 years later, we should also not consider on the same ground the laws written during the Roman Empire with the laws inscribed in a constitution of a country nowadays.
