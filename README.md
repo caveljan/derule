@@ -33,5 +33,7 @@ The gender of the cannibal is always it.
 ## Modules
 
 + economy
++ education
 + election
++ health
 + justice
