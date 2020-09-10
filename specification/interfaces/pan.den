@@ -1,0 +1,14 @@
+import EntityName from ./general
+import Owner from ./owner
+
+
+
+/**
+ * A Pan, that is, a company, a total-togetherness towards an endeavour.
+ */
+interface Pan {
+    name: PanName
+    owners: Owner[]
+}
+
+interface PanName extends EntityName {}

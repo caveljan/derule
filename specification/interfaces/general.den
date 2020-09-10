@@ -1,0 +1,4 @@
+interface EntityName {
+    |referred to as|: characters
+    [key: characters]: characters
+}

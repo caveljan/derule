@@ -1,0 +1,68 @@
+interface Owner {
+    id: characters;
+    name: OwnerName;
+    assets: OwnerAssets;
+    activities: OwnerActivities;
+    actions: OwnerActions;
+    errors: OwnerErrors;
+}
+
+interface OwnerName {
+    /*
+     * An Owner should be able to name itself however it wants,
+     * e.g. with first name and last name, only with first name,
+     * or with just an arbitrary string of characters.
+     * Every Owner should have a |referred to as| string (chosen, or some kind of SHA)
+     * to be used in regular interactions.
+     */
+    |referred to as|: characters
+    [key: characters]: characters
+}
+
+interface OwnerAssets {
+    personalCurrency: rationalnumber
+    holdings: OwnerHoldings[]
+}
+
+interface OwnerHoldings {
+    type: keyof HoldingType
+    value: rationalnumber
+}
+
+enum HoldingType {
+    STOCK,
+    PROPERTY,
+}
+
+
+interface OwnerActivities {
+    /*
+     * Should there be such a knowledge of one's activities?
+     * It appears as useful as prone to abuse(s).
+     */
+    movies: Movie[]
+    books: Book[]
+    ...various other activities
+}
+
+interface Movie {
+    movieId: characters
+    seen: date[]
+    public: bifork
+}
+
+interface Book {
+    bookId: characters
+    read: date[]
+    public: bifork
+}
+
+
+interface OwnerActions  {
+
+}
+
+
+interface OwnerErrors {
+
+}
